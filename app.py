@@ -375,11 +375,11 @@ if __name__ == '__main__':
                          font-size:20px ; font-family: 'Trebuchet MS'; color:	#C0C0C0; } 
                          </style> """, unsafe_allow_html=True)
         st.markdown(
-            '<p class="font2" >This is a movie recommendation engine built as a part of Microsoft engage mentorship programme.It recommends movies to the user based on their input of genre or movie. '
+            '<p class="font2" >This is a movie recommendation engine.It recommends movies to the user based on their input of genre or movie. '
             'It also allows the user to read a short description of movie along with their imdb rating upon searching its name.</p>',
             unsafe_allow_html=True)
         st.markdown(
-            '<p class="font2" >It has been developed by Juhi Vishwakarma, a pre-final year student of IIT Roorkee who majors in Mechanical Engineering. Along with movies and ice cream the developer enjoys doing competitive programming, problem solving and a lit bit of development here and there.</p>',
+            '<p class="font2" >It has been developed by Kartikey singh, a pre-final year student of IIT Roorkee who majors in Mechanical Engineering.</p>',
             unsafe_allow_html=True)
 
     elif choice == "Contribute":
@@ -394,7 +394,7 @@ if __name__ == '__main__':
                         font-size:20px ; color: White; text-align:center;} 
                         </style> """, unsafe_allow_html=True)
         st.markdown('<p class="font21">Are we missing a favorite of your movies in our database? Dont Worry  we had '
-                    'you covered, send us a list of the missing masterpieces and we will include them in our corpus '
+                    'you covered!'
                     '</p>', unsafe_allow_html=True)
         st.subheader("DocumentFiles")
         docx_file = st.file_uploader("Upload Document", type=["txt"])
